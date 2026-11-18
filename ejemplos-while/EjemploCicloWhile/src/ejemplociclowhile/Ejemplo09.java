@@ -31,10 +31,10 @@ public class Ejemplo09 {
         String cadena = ""; // cadena acumulador
         System.out.printf("%sTabla de multiplicar\n", cadena);
         
-        while (contador <= limite_tabla){ // 1<=12 v
-            operacion = tabla * contador; // operacion = 3*1 = 3
+        while (contador <= limite_tabla){ 
+            operacion = tabla * contador; 
             
-            System.out.printf("%s%d*%d = %d\n", // ""3*1=3\n === > 3*1=3
+            System.out.printf("%s%d*%d = %d\n", 
                     cadena, 
                     tabla, 
                     contador,
